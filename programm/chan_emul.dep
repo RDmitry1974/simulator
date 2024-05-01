@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2244821444</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\FreeRTOS\include\task.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\AnalogDevices\ADuCM360.icf</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\queue.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART_class.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\cur_in.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mcu.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\chan_emul.map</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\chan_emul.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\portasm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\tc_out.o</file>
+            <file>$TOOLKIT_DIR$\inc\AnalogDevices\aducm360.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\FreeRTOS.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tc_out.__cstat.et</file>
+            <file>$PROJ_DIR$\source\adc.c</file>
+            <file>$PROJ_DIR$\source\main.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tr_out.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\serial.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART_class.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\projdefs.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm3.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cstdlib</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xtr1common</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\modbus.__cstat.et</file>
+            <file>$PROJ_DIR$\source\modbus.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\source\cur_out.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\queue.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\cur_out.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tasks.__cstat.et</file>
+            <file>$PROJ_DIR$\source\uart_class.h</file>
+            <file>$PROJ_DIR$\source\serial.cpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\freq_out.o</file>
+            <file>$PROJ_DIR$\source\off_out.c</file>
+            <file>$PROJ_DIR$\source\tr_out.h</file>
+            <file>$PROJ_DIR$\source\startup_ADuCM360.s</file>
+            <file>$PROJ_DIR$\source\tr_out.c</file>
+            <file>$PROJ_DIR$\source\Mcu.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.o</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\source\UART_class.cpp</file>
+            <file>$PROJ_DIR$\source\modbus.cpp</file>
+            <file>$PROJ_DIR$\source\tc_out.c</file>
+            <file>$PROJ_DIR$\source\u_out.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_nc.a</file>
+            <file>$PROJ_DIR$\source\u_out.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mcu.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\queue.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\modbus.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\serial.xcl</file>
+            <file>$PROJ_DIR$\source\cur_in.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tc_out.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\heap_1.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\off_out.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\u_out.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cur_out.xcl</file>
+            <file>$PROJ_DIR$\source\off_out.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tasks.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART_class.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\list.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\freq_out.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\tr_out.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cur_in.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\off_out.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\cur_in.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\queue.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mcu.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\semphr.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\list.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\cur_out.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\chan_emul.hex</file>
+            <file>$PROJ_DIR$\Debug\Obj\tasks.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\u_out.o</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\mpu_wrappers.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tr_out.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\heap_1.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\serial.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\off_out.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\chan_emul.pbd</file>
+            <file>$PROJ_DIR$\source\adc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\u_out.__cstat.et</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\timers.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\StackMacros.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\freq_out.__cstat.et</file>
+            <file>$PROJ_DIR$\source\mymacro.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\modbus.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\list.__cstat.et</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\portable.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\list.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\heap_1.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\source\tc_out.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\source\serial.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\portable\IAR\ARM_CM3\portmacro.h</file>
+            <file>$PROJ_DIR$\source\freq_out.h</file>
+            <file>$TOOLKIT_DIR$\inc\AnalogDevices\system_ADuCM360.h</file>
+            <file>$PROJ_DIR$\source\startup_ADuCM360lock.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_ADuCM360lock.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_ADuCM360.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\source\freq_out.c</file>
+            <file>$PROJ_DIR$\source\main.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\portable\IAR\ARM_CM3\portasm.s</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\portable\IAR\ARM_CM3\port.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\list.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\queue.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\tasks.c</file>
+            <file>$PROJ_DIR$\source\mcu.c</file>
+            <file>$PROJ_DIR$\source\cur_out.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\portable\MemMang\heap_1.c</file>
+            <file>$PROJ_DIR$\source\cur_in.c</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\chan_emul.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 1 5 92 45 122 119 95 88 115 106 51 12 87 21 133 94 13 98 96 3 124 61 116 99</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86 9 4 89 107 50 14 120 52 53 23 10 54 103 104 130 25 70 6 109</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109 50 10 4 86 54 89 120 103 104 14 52 9 70 53 25 130 23 6 107</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\serial.cpp</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127 126 4 86 54 89 120 59 85 114 10 43 14 27 32 28 30 26 130 15 134 138 24 118 38 128 53 35 97 2 0 91 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\off_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75 18 15 134 4 86 54 89 120 59 10 138 24 118 38 128 53 26 35 97 0 91 2 90 14 27 32 28 30 130 50 23 31 107 33 29 20 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\startup_ADuCM360.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 133</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\tr_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47 18 15 134 4 86 54 89 120 59 10 138 24 118 38 128 53 26 35 97 0 91 2 90 14 27 32 28 30 130 50 23 31 107 33 29 20 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\UART_class.cpp</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43 14 27 10 4 86 54 89 120 32 28 30 26 130 15 134 59 138 24 118 38 128 53 35 97 2 0 91 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\modbus.cpp</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37 127 126 4 86 54 89 120 59 85 114 10 43 14 27 32 28 30 26 130 15 134 138 24 118 38 128 53 35 97 2 0 91 90 18 109 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\tc_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125 18 15 134 4 86 54 89 120 59 10 138 24 118 38 128 53 26 35 97 0 91 2 90 14 27 32 28 30 130 50 23 31 107 33 29 20 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\u_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 18 15 134 4 86 54 89 120 59 10 138 24 118 38 128 53 26 35 97 0 91 2 90 14 27 32 28 30 130 50 23 31 107 33 29 20 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\startup_ADuCM360lock.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 132</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\freq_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 18 15 134 4 86 54 89 120 59 10 138 24 118 38 128 53 26 35 97 0 91 2 90 14 27 32 28 30 130 50 23 31 107 33 29 20 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\main.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 15 134 4 86 54 89 120 59 10 138 24 118 38 128 53 26 35 97 0 91 2 90 50 14 27 32 28 30 130 109 47 125 39 68 129 75 62 23 31 107 33 29 20 34 37 127 126 85 114 43</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\portable\IAR\ARM_CM3\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 138</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\portable\IAR\ARM_CM3\port.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53 26 86 54 89 120 35 15 134 4 59 10 138 24 118 38 128 97 0 91</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\list.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 4 86 54 89 120 59 34 15 134 10 138 24 118 38 128 53 26 35 97 91</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 4 86 54 89 120 59 34 126 85 15 134 10 138 24 118 38 128 53 26 35 97 0 91 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 4 86 54 89 120 59 34 126 85 15 134 10 138 24 118 38 128 53 26 35 97 0 91 111 112</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\mcu.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 10 4 86 54 89 120 14 27 32 28 30 26 130</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\cur_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39 18 15 134 4 86 54 89 120 59 10 138 24 118 38 128 53 26 35 97 0 91 2 90 14 27 32 28 30 130 50 23 31 107 33 29 20 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\portable\MemMang\heap_1.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 4 86 54 89 120 59 34 15 134 10 138 24 118 38 128 53 26 35 97 0 91</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\cur_in.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68 18 15 134 4 86 54 89 120 59 10 138 24 118 38 128 53 26 35 97 0 91 2 90 14 27 32 28 30 130 50 23 31 107 33 29 20 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 11 8</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$PROJ_DIR$\FreeRTOS\include\task.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\AnalogDevices\ADuCM360.icf</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\queue.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\AnalogDevices\aducm360.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\FreeRTOS.h</file>
+            <file>$PROJ_DIR$\source\main.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\projdefs.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\source\modbus.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\source\cur_out.h</file>
+            <file>$PROJ_DIR$\source\uart_class.h</file>
+            <file>$PROJ_DIR$\source\serial.cpp</file>
+            <file>$PROJ_DIR$\source\off_out.c</file>
+            <file>$PROJ_DIR$\source\tr_out.h</file>
+            <file>$PROJ_DIR$\source\startup_ADuCM360.s</file>
+            <file>$PROJ_DIR$\source\tr_out.c</file>
+            <file>$PROJ_DIR$\source\Mcu.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\source\UART_class.cpp</file>
+            <file>$PROJ_DIR$\source\modbus.cpp</file>
+            <file>$PROJ_DIR$\source\tc_out.c</file>
+            <file>$PROJ_DIR$\source\u_out.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Release\Obj\serial.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\UART_class.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\u_out.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\queue.o</file>
+            <file>$PROJ_DIR$\Release\Obj\port.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\tasks.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\list.o</file>
+            <file>$PROJ_DIR$\Release\Obj\off_out.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\list.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\port.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\UART_class.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\heap_1.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cur_in.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\tr_out.o</file>
+            <file>$PROJ_DIR$\Release\Obj\u_out.pbi</file>
+            <file>$PROJ_DIR$\source\u_out.h</file>
+            <file>$PROJ_DIR$\Release\Obj\cur_in.o</file>
+            <file>$PROJ_DIR$\Release\Obj\list.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\queue.__cstat.et</file>
+            <file>$PROJ_DIR$\source\cur_in.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\Release\Obj\tasks.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\cur_out.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\mcu.o</file>
+            <file>$PROJ_DIR$\source\off_out.h</file>
+            <file>$PROJ_DIR$\Release\Obj\heap_1.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\heap_1.o</file>
+            <file>$PROJ_DIR$\Release\Obj\modbus.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\serial.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\semphr.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\list.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\mpu_wrappers.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+            <file>$PROJ_DIR$\source\adc.h</file>
+            <file>$PROJ_DIR$\Release\Obj\tr_out.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\portasm.o</file>
+            <file>$PROJ_DIR$\Release\Exe\chan_emul.hex</file>
+            <file>$PROJ_DIR$\Release\Obj\cur_out.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\main.o</file>
+            <file>$PROJ_DIR$\Release\Obj\freq_out.o</file>
+            <file>$PROJ_DIR$\Release\Exe\chan_emul.out</file>
+            <file>$PROJ_DIR$\Release\Obj\tasks.o</file>
+            <file>$PROJ_DIR$\Release\Obj\off_out.o</file>
+            <file>$PROJ_DIR$\Release\Obj\off_out.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\tc_out.pbi</file>
+            <file>$PROJ_DIR$\Release\List\chan_emul.map</file>
+            <file>$PROJ_DIR$\Release\Obj\UART_class.o</file>
+            <file>$PROJ_DIR$\Release\Obj\cur_out.o</file>
+            <file>$PROJ_DIR$\Release\Obj\freq_out.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\modbus.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\serial.o</file>
+            <file>$PROJ_DIR$\Release\Obj\startup_ADuCM360.o</file>
+            <file>$PROJ_DIR$\Release\Obj\tr_out.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\modbus.o</file>
+            <file>$PROJ_DIR$\Release\Obj\tc_out.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\tc_out.o</file>
+            <file>$PROJ_DIR$\Release\Obj\cur_in.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\queue.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\u_out.o</file>
+            <file>$PROJ_DIR$\Release\Obj\mcu.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Release\Obj\port.o</file>
+            <file>$PROJ_DIR$\Release\Obj\freq_out.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\mcu.pbi</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\timers.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\StackMacros.h</file>
+            <file>$PROJ_DIR$\source\mymacro.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\portable.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\source\tc_out.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_ne.a</file>
+            <file>$PROJ_DIR$\source\serial.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\portable\IAR\ARM_CM3\portmacro.h</file>
+            <file>$PROJ_DIR$\source\freq_out.h</file>
+            <file>$TOOLKIT_DIR$\inc\AnalogDevices\system_ADuCM360.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\source\freq_out.c</file>
+            <file>$PROJ_DIR$\source\main.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\portable\IAR\ARM_CM3\portasm.s</file>
+            <file>$PROJ_DIR$\FreeRTOS\include\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\FreeRTOS\portable\IAR\ARM_CM3\port.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\list.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\queue.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\tasks.c</file>
+            <file>$PROJ_DIR$\source\mcu.c</file>
+            <file>$PROJ_DIR$\source\cur_out.c</file>
+            <file>$PROJ_DIR$\FreeRTOS\portable\MemMang\heap_1.c</file>
+            <file>$PROJ_DIR$\source\cur_in.c</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\source\serial.cpp</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68 26 25 69 62 116 3 8 105 6 0 13 111 17 31 61 63 108 7 2 64 24 52 117 12 15 66 113 5 121 107 114 65</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113 111 3 62 26 63 108 68 69 31 61 105 6 17 7 24 5 52 25 13 116 8 117 121 12 107 15 114 66 2 0 65 64</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\off_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108 62 116 5 64 121 31 9 25 23 0 6 107 3 63 114 7 11 8 2 117 12 26 68 69 15 66 65 24 4 56 13 52 70</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56 9 8 117 3 62 26 63 108 68 69 31 6 121 12 107 15 114 25 66 0 65 2 64 7 24 5 52 13 116 23 11 4 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\startup_ADuCM360.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\tr_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25 62 64 121 31 108 24 6 4 23 0 107 3 63 114 7 11 9 8 2 117 12 26 68 69 15 66 65 116 13 20 5 52 70</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 9 8 117 3 62 26 63 108 68 69 31 6 121 12 107 15 114 25 66 0 65 2 64 7 24 5 52 13 116 23 11 4 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\UART_class.cpp</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 63 114 5 3 52 62 121 7 24 2 26 68 69 108 6 107 8 0 116 13 25 117 12 31 15 66 17 65</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 7 24 6 3 62 26 63 108 68 69 5 52 25 13 116 8 117 31 121 12 107 15 114 66 2 0 65 64</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\modbus.cpp</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65 64 3 113 108 61 2 5 6 71 105 31 63 7 24 107 114 23 9 111 17 62 26 68 69 8 0 116 52 121 25 14 13 117 12 15 66</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 113 111 3 62 26 63 108 68 69 31 61 105 6 17 7 24 5 52 25 13 116 8 117 121 12 107 15 114 66 2 0 65 64 9 71 23</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\tc_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25 5 64 121 31 108 62 116 23 0 6 107 3 63 114 7 11 9 8 2 117 12 26 68 69 15 66 65 24 4 110 13 52 70</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110 9 8 117 3 62 26 63 108 68 69 31 6 121 12 107 15 114 25 66 0 65 2 64 7 24 5 52 13 116 23 11 4 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\u_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25 5 64 121 31 108 62 116 23 0 6 107 3 63 114 7 11 9 8 2 117 12 26 68 69 15 66 65 24 4 47 13 52 70</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47 9 8 117 3 62 26 63 108 68 69 31 6 121 12 107 15 114 25 66 0 65 2 64 7 24 5 52 13 116 23 11 4 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Release\Exe\chan_emul.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 1 48 85 77 58 38 76 55 91 80 100 73 35 88 89 79 94 45 97 84 109 112 106 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\freq_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5 9 12 66 8 117 15 23 2 62 3 26 68 69 65 24 7 11 0 64 6 121 107 31 63 108 114 25 116 4 115 13 52 70</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115 9 8 117 3 62 26 63 108 68 69 31 6 121 12 107 15 114 25 66 0 65 2 64 7 24 5 52 13 116 23 11 4 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\main.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23 113 56 3 6 62 2 110 25 26 68 69 15 4 71 51 11 8 117 12 66 20 16 115 47 14 0 64 121 107 31 63 108 65 7 116 13 9 105 114 24 5 52 70 111 17 61</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 8 117 3 62 26 63 108 68 69 31 6 121 12 107 15 114 25 66 0 65 2 64 23 7 24 5 52 13 116 71 20 110 16 51 115 56 47 11 4 70 14 113 111 61 105 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\portable\IAR\ARM_CM3\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 121</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\portable\IAR\ARM_CM3\port.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 62 6 0 12 69 114 25 8 117 121 107 31 26 68 63 108 66 65 15</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 3 8 117 62 26 63 108 68 69 31 6 121 12 107 15 114 66 0 65</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\list.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63 6 3 68 62 65 31 26 108 12 8 69 117 121 107 15 10 114 66 25</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10 3 62 26 63 108 68 69 31 8 117 6 121 12 107 15 114 25 66 65</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63 0 62 6 15 3 68 111 8 2 31 26 108 12 10 69 61 117 121 107 114 66 25 65</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10 3 62 26 63 108 68 69 31 111 61 8 117 6 121 12 107 15 114 25 66 0 65 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 68 0 104 63 62 6 15 111 8 103 31 26 108 12 10 69 61 117 121 107 114 66 25 65</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10 3 62 26 63 108 68 69 31 111 61 8 117 6 121 12 107 15 114 25 66 0 65 103 104</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\mcu.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 7 3 108 116 52 6 62 26 68 69 63 23 24 5 25</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 6 3 62 26 63 108 68 69 7 24 5 52 25 13 116</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\cur_out.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 5 65 2 62 26 68 69 24 23 8 117 12 15 66 7 11 9 0 64 6 121 107 31 63 108 114 25 116 4 16 13 52 70</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 9 8 117 3 62 26 63 108 68 69 31 6 121 12 107 15 114 25 66 0 65 2 64 7 24 5 52 13 116 23 11 4 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\FreeRTOS\portable\MemMang\heap_1.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62 68 117 107 3 8 69 121 114 25 65 0 31 26 63 108 6 12 66 10 15</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10 3 62 26 63 108 68 69 31 8 117 6 121 12 107 15 114 25 66 0 65</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\cur_in.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 5 65 2 62 26 68 69 24 23 9 8 117 12 15 66 7 11 0 64 6 121 107 31 63 108 114 25 116 4 51 13 52 70</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51 9 8 117 3 62 26 63 108 68 69 31 6 121 12 107 15 114 25 66 0 65 2 64 7 24 5 52 13 116 23 11 4 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 83 78</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+</project>
